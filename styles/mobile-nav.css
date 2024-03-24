@@ -1,0 +1,43 @@
+.mobile-nav {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 10px;
+}
+.mobile-nav__burger-icon {
+    width: 33px;
+    height: 18px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.mobile-nav__menu {
+    position: fixed;
+    inset: 0;
+    padding: 30px 20px 10px;
+    background-color: var(--color-white);
+}
+.mobile-nav__menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 85px 0 0 0;
+}
+.mobile-nav__menu-item {
+    width: 100%;
+}
+.mobile-nav__menu-link {
+    font-size: 30px;
+}
+.mobile-nav__checkbox {
+    display: none;
+}
+
+.mobile-nav__checkbox:checked ~ .mobile-nav__menu{
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .mobile-nav  {
+        display: block;
+    }
+}

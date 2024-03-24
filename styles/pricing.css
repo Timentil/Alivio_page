@@ -1,0 +1,38 @@
+.pricing {
+    padding: 95px 0 145px 0;
+    background-color: var(--color-dark-green);
+    color: var(--color-white);
+}
+
+.pricing_content {
+    padding: 0 0 0 30px;
+}
+
+.pricing__title {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.pricing__nav {
+    margin: 65px 0 0 0;
+}
+
+.pricing__nav-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.pricing__nav-link {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.pricing__nav-link:hover {
+    color: var(--color-green)
+}
+
+.pricing__nav-link:focus-visible {
+    outline: 2px solid var(--color-white);
+    border-radius: 3px;
+}

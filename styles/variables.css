@@ -1,3 +1,12 @@
 :root {
-    
+    --color-white: #fff;
+    --color-light-green: rgba(1, 153, 109, 0.2);;
+    --color-green: #01996d;
+    --color-dark-green: #245852;
+    --color-black1: #000;
+    --color-black2: #292929;
+    --color-black3: #484848;
+
 }
+
+/* media breakpoints: 992px, 768px, 576px, 480px */
